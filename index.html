@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand_Cricket</title>
+    <script src = "script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <img class="man" src="images/man.png">
+    <img class="bot" src="images/robot.png">
+    <br>
+    <h3>User</h3>
+    <h3 class="botfont">Bot</h3>
+
+
+    <h2>Score : <span id="userscore"></span></h2>
+    <span id="user_finalscore"></span>
+    <h2>Computer Choice : <span id="computerscore"></span></h2>
+    <h2>Result : <span id="result"></span></h2>
+
+    <div class="scores">
+        <div class="top_scores">
+            <button onclick="user('1')"><img src="images/number-one.png"></button>
+            <button onclick="user('2')"><img src="images/number-2.png"></button>
+            <button onclick="user('3')"><img src="images/number-3.png"></button>
+        </div>
+        <div class="bottom_scores">
+            <button onclick="user('4')"><img src="images/number-four.png"></button>
+            <button onclick="user('5')"><img src="images/number-5.png"></button>
+            <button onclick="user('6')"><img src="images/six.png"></button>
+        </div>
+    </div>
+
+</body>
+</html>
