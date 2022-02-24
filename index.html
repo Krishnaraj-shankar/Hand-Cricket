@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hand_Cricket</title>
+    <title>HandCricket</title>
     <script src = "script.js"></script>
     <link href="style.css" rel="stylesheet">
 </head>
@@ -16,9 +16,11 @@
     <h3 class="botfont">Bot</h3>
 
 
-    <h2>Score : <span id="userscore"></span></h2>
-    <span id="user_finalscore"></span>
-    <h2>Computer Choice : <span id="computerscore"></span></h2>
+    <h2><span id = "user_status">Batting</span> : <span id="user_choice"></span></h2>
+    <!-- <span id="present_score"></span> -->
+    <h2>Computer Choice : <span id="computer_choice"></span></h2>
+    <h2><span id="present_score_user_bot_name">Your Score</span> : <span id="present_score"></span></h2>
+    <h2>Target : <span id="target"></h2>
     <h2>Result : <span id="result"></span></h2>
 
     <div class="scores">
@@ -33,6 +35,5 @@
             <button onclick="user('6')"><img src="images/six.png"></button>
         </div>
     </div>
-
 </body>
 </html>
